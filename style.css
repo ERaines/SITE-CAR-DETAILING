@@ -83,3 +83,19 @@ nav li {
     width: 840px;
     margin: 0 auto;
 }
+
+/* --------- Footer --------- */
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    padding: 5px 0 10px 0;
+    font-size: 12px;
+}
+
+.logoFooter {
+    width: 150px;
+}
