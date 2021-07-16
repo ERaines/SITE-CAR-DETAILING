@@ -8,12 +8,14 @@ body {
 h2 {
     font-size: 22px;
     font-weight: bold;
+    text-align: center;
     
 }
 
 h3 {
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 }
 
 p {
@@ -34,10 +36,11 @@ header {
 }
 
 nav li {
+    float: right;
     display: inline-block;
     padding: 10px;
-    float: right;
     color: white;
+    
 }
 
 /* --------- Banner --------- */
@@ -69,3 +72,14 @@ nav li {
 }
 
 /* --------- Section Locate --------- */
+
+
+.locate {
+    padding: 3em 0;
+    background: #FEFEFE;
+}
+
+.mapLocate {
+    width: 840px;
+    margin: 0 auto;
+}
