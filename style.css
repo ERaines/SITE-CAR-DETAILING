@@ -1,0 +1,56 @@
+/* --------- Global --------- */
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: rgb(31,78,121);
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    padding: 30px;
+}
+
+/* --------- Header --------- */
+header {
+    background: rgb(31,78,121);
+    padding: 5px 10px; 
+    height: 40px;
+
+}
+
+.logoImagen {
+    float: left;
+    width: 100px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    color: white;
+}
+
+/* --------- Banner --------- */
+
+.banner {
+    width: 100%;
+}
+
+/* --------- Section About us --------- */
+
+.sectionAboutUs{ 
+    padding: 20px;
+    background: #FEFEFE;
+}
+
+/* --------- Section Locate --------- */
