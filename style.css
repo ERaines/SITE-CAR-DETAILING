@@ -1,26 +1,36 @@
-/* --------- Global --------- */
+/* ========== Global ========= */
+    body {
+        font-family: 'Noto Sans JP', sans-serif;
+        background: rgb(31,78,121);
+    }
 
-body {
-    font-family: 'Noto Sans JP', sans-serif;
-    background: rgb(31,78,121);
-}
+    h2 {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center; 
+    }
 
-h2 {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    
-}
+    h2:hover {
+        transform: scale(1.1);
+        transition: 400ms;
+    }
 
-h3 {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-}
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
 
-p {
-    padding: 30px;
-}
+    h3:hover {
+        transform: scale(1.1);
+        transition: 400ms;
+    }
+
+    p {
+        padding: 30px;
+    }
+/*=============================*/
+
 
 /* --------- Header --------- */
 header {
@@ -39,9 +49,17 @@ nav li {
     float: right;
     display: inline;
     padding: 10px;
-    color: white;
-    
 }
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(236,226,20);
+}
+
 
 /* --------- Banner --------- */
 
@@ -49,43 +67,53 @@ nav li {
     width: 100%;
 }
 
-/* --------- Section About us --------- */
+/* ========== Main ========== */
 
-.sectionAboutUs{ 
-    padding: 20px;
-    background: #FEFEFE;
-}
+    /* --------- Section About us --------- */
+    .sectionAboutUs{ 
+        padding: 20px;
+        background: #FEFEFE;
+    }
 
-#grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: minmax(250px,auto);
-    grid-column-gap: .2em;
-    grid-row-gap: .2em;
-    margin: 20px 0 0 0;
-}
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(250px,auto);
+        grid-column-gap: .2em;
+        grid-row-gap: .2em;
+        margin: 20px 0 0 0;
+    }
 
-#grid img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    #grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-/* --------- Section Locate --------- */
+    #grid img:hover {
+        opacity: 0.8;
+        transition: 400ms;
+    }
 
+    /* --------- Section Locate --------- */
+    .locate {
+        padding: 3em 0;
+        
+    }
 
-.locate {
-    padding: 3em 0;
-    background: #FEFEFE;
-}
+    .locate p, .locate h2 {
+        text-align: center;
+        color: white;
+    }
 
-.mapLocate {
-    width: 840px;
-    margin: 0 auto;
-}
+    .mapLocate {
+        width: 840px;
+        margin: 0 auto;
+    }
+
+    /* ========================== */
 
 /* --------- Footer --------- */
-
 footer {
     text-align: center;
     color: white;
