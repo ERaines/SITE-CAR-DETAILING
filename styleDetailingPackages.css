@@ -16,16 +16,16 @@
         width: 20%;
         vertical-align: top;
         margin: 1% 1%;
-        padding: 5px 10px;
+        padding: 5px 5px;
         box-sizing: border-box;
-        border: 2px solid ;
+        border: 4px solid ;
         border-radius: 10px;
     
     }
 
     .packPlatinum {
         color: #A0B2C6;
-        background: url(/imagensDetailingPackages/imgPlatinum.jpg);  
+        background: #888888;  
     }
     .packPlatinum h2{
         box-sizing: border-box;
@@ -38,8 +38,7 @@
 
     .packGold {
         color: #C49C48;
-        background: white;
-        background: url(/imagensDetailingPackages/imgGold.png) no-repeat;
+        background: #888888;
     }
     .packGold h2{
         box-sizing: border-box;
@@ -52,8 +51,7 @@
 
     .packSilver {
         color: #C0C0C0;
-        background: white;
-        background: url(/imagensDetailingPackages/imgSilver.jpg) no-repeat;
+        background: #888888;
     }
     .packSilver h2{
         box-sizing: border-box;
@@ -66,8 +64,7 @@
 
     .packBronze {
         color: #A05822;
-        background: white;
-        background: url(/imagensDetailingPackages/ImgBronze.jpg) no-repeat;
+        background: #888888;
     }
     .packBronze h2{
         box-sizing: border-box;
