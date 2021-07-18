@@ -4,7 +4,7 @@
     /* --------- Ul Packages Services --------- */
     .packagesServices {
         text-align: center;
-        width: 940px;
+        width: 100%;
         margin: 0 auto;
         padding: 25px 0;
         
@@ -13,14 +13,78 @@
     .packagesServices li {
         display:inline-block;
         text-align: center;
-        width: 22%;
+        width: 20%;
         vertical-align: top;
         margin: 1% 1%;
-        padding: 10px 5px;
+        padding: 5px 10px;
         box-sizing: border-box;
-        border: 2px solid #000000;
+        border: 2px solid ;
         border-radius: 10px;
     
+    }
+
+    .packPlatinum {
+        color: #A0B2C6;
+        background: url(/imagensDetailingPackages/imgPlatinum.jpg);  
+    }
+    .packPlatinum h2{
+        box-sizing: border-box;
+        border: 3px solid #A0B2C6;
+        border-radius: 5px;
+        padding: 3px 3px 5px 3px;
+        background: #A0B2C6;
+        color: white;
+    }
+
+    .packGold {
+        color: #C49C48;
+        background: white;
+        background: url(/imagensDetailingPackages/imgGold.png) no-repeat;
+    }
+    .packGold h2{
+        box-sizing: border-box;
+        border: 3px solid #C49C48;
+        border-radius: 5px;
+        padding: 3px 3px 5px 3px;
+        background: #C49C48;
+        color: white;
+    }
+
+    .packSilver {
+        color: #C0C0C0;
+        background: white;
+        background: url(/imagensDetailingPackages/imgSilver.jpg) no-repeat;
+    }
+    .packSilver h2{
+        box-sizing: border-box;
+        border: 3px solid #C0C0C0;
+        border-radius: 5px;
+        padding: 3px 3px 5px 3px;
+        background: #C0C0C0;
+        color: white;
+    }
+
+    .packBronze {
+        color: #A05822;
+        background: white;
+        background: url(/imagensDetailingPackages/ImgBronze.jpg) no-repeat;
+    }
+    .packBronze h2{
+        box-sizing: border-box;
+        border: 3px solid #A05822;
+        border-radius: 5px;
+        padding: 3px 3px 5px 3px;
+        background: #A05822;
+        color: white;
+    }
+
+    ul p {
+        padding: 5px;
+    }
+
+    main p {
+        text-align: center;
+        color: white;
     }
 
 
