@@ -25,6 +25,7 @@
         box-sizing: border-box;
         border: 4px solid ;
         border-radius: 10px;
+        background: url(/imagensDetailingPackages/fundoPackages.jpg);
     }
 
     ul p {
