@@ -13,6 +13,7 @@
     .packagesServices li:hover {
         transform: scale(1.3);
         transition: 400ms;
+        cursor: pointer;
     }
 
     .packagesServices li {
@@ -92,9 +93,5 @@
         text-align: center;
         color: white;
     }
-
-
-
-
-
+    
 /* ========================== */
