@@ -1,4 +1,4 @@
-# Projeto de site para pequeno negócio de Limpeza de carros em MA/USA
+# Projeto de site para negócio de Limpeza automtiva em MA/USA
 
 
 <h3> Objetivo do projeto </h3>
