@@ -5,7 +5,6 @@
         padding: 40px 0 0 40px;
         /*background: url(/imagensContacUs/imgContact.jpg);
         background-size: 100%;*/
-        
     }
 
     form label {
@@ -15,7 +14,6 @@
         color: white;
     }
     
-
     .inputDefault {
         display: block;
         margin: 0 0 20px 0;
@@ -39,20 +37,5 @@
         color: rgb(236,226,20);
         transform: scale(1.3);
     }
-        
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ========================== */
