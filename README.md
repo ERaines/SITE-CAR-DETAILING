@@ -20,4 +20,7 @@ Este site será finalizado apenas quando estiver totalmente pronto para uso ao f
 
 <h3>Exemplo</h3>
 
-<img src="" alt="print" width="700"/>
+<img src="https://github.com/ERaines/SITE-CAR-DETAILING/blob/main/imagensHome/printIndex.png?" alt="print" width="700"/>
+<img src="https://github.com/ERaines/SITE-CAR-DETAILING/blob/main/imagensHome/printGallery.png?" alt="print" width="700"/>
+<img src="https://github.com/ERaines/SITE-CAR-DETAILING/blob/main/imagensHome/printDetailingPackages.png?" alt="print" width="700"/>
+<img src="https://github.com/ERaines/SITE-CAR-DETAILING/blob/main/imagensHome/printContactUs.png?" alt="print" width="700"/>
