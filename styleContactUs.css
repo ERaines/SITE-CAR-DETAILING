@@ -3,11 +3,16 @@
     /* --------- Form Contact Us --------- */
     .formContactUs {
         padding: 40px 0 0 40px;
+
         /*background: url(/imagensContacUs/imgContact.jpg);
         background-size: 100%;*/
     }
 
-    form label {
+    #googleForms{
+        float: left;
+    }
+
+    /*form label {
         display: block;
         font-size: 20px;
         margin: 0 0 10px 0;
@@ -36,6 +41,6 @@
         background: rgb(31,78,121);
         color: rgb(236,226,20);
         transform: scale(1.3);
-    }
+    }/*
 
 /* ========================== */
