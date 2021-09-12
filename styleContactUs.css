@@ -39,7 +39,7 @@
     }
     .sendButton:hover {
         background: rgb(31,78,121);
-        color: rgb(236,226,20);
+        color: white;
         transform: scale(1.3);
     }
 
