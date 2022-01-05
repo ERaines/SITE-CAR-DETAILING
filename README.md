@@ -10,11 +10,6 @@ Para praticar HTML e CSS. o site foi desenvolvido com base em um estabelecimento
 À medida que avanças nos estudo irei implementar uma galeria melhor elaborada além de mudanças no grid usado na home.
 
 
-<h3>Como usar</h3>
-
-1. Clone o Projeto em sua máquina
-2. Abra o arquivo index.html no seu navegador.
-
 
 <h3>Exemplo</h3>
 
